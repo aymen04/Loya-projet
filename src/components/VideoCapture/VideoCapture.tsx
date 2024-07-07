@@ -67,7 +67,7 @@ const VideoCapture: React.FC = () => {
   };
 
   useEffect(() => {
-    fetch('/ObjectData.json')
+    fetch('./ObjectData.json')
       .then(response => response.json())
       .then(data => setObjectData(data))
       .catch(error => console.error('Error loading object data:', error));
