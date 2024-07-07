@@ -1,0 +1,357 @@
+.inscription-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .inscription-inscription {
+    width: 100%;
+    height: 844px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(252, 252, 252, 1);
+  }
+  
+  
+  
+  .inscription-buttoncontinuer {
+    top: 464px;
+    left: 218px;
+    width: 156px;
+    height: 55px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(160, 152, 255, 1);
+  }
+  .inscription-text {
+    top: 15px;
+    left: 27px;
+    color: rgba(252, 252, 252, 1);
+    width: 102px;
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .inscription-text02 {
+    /* styles existants */
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  
+    /* nouveau style pour le champ de texte */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 84%;
+    height: 56px;
+    box-sizing: border-box;
+  
+    /* style pour la position absolue */
+    position: absolute;
+    top: 224px;
+    left: 16px;
+  }
+  
+  .inscription-text04 {
+    color: rgba(0, 0, 0, 1);
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 84%;
+    height: 56px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 296px;
+    left: 17px;
+  }
+  
+  .inscription-text06 {
+    color: rgba(0, 0, 0, 1);
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 84%;
+    height: 56px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 368px;
+    left: 17px;
+
+
+  }
+  
+  .inscription-text08 {
+    top: 58px;
+    left: 28px;
+    color: rgba(0, 0, 0, 1);
+    width: 306px;
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    font-style: ExtraBold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .inscription-google {
+    top: 549px;
+    left: 16px;
+    width: 358px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 1;
+    justify-content: flex-end;
+    background-color: rgba(236, 236, 236, 1);
+  }
+  .inscription-logogoogleavecarriereplansupprime1 {
+    top: 10px;
+    left: 16px;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+  }
+  .inscription-smallarrow {
+    top: 19px;
+    left: 320px;
+    width: 21.055185317993164px;
+    height: 17.226970672607422px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .inscription-vector {
+    top: 0px;
+    left: 0px;
+    width: 21px;
+    height: 17px;
+    position: absolute;
+  }
+  .inscription-text10 {
+    top: 20px;
+    left: 65px;
+    color: rgba(0, 0, 0, 1);
+    width: 219px;
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .inscription-djuncompte {
+    top: 621px;
+    left: 17px;
+    width: 358px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(236, 236, 236, 1);
+  }
+  .inscription-text12 {
+    top: 20px;
+    left: 64px;
+    color: rgba(0, 0, 0, 1);
+    width: 219px;
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .inscription-text13 {
+    font-weight: 400;
+  }
+  .inscription-smallarrow1 {
+    top: 19px;
+    left: 319px;
+    width: 21.055185317993164px;
+    height: 17.226970672607422px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .inscription-vector1 {
+    top: 0px;
+    left: 0px;
+    width: 21px;
+    height: 17px;
+    position: absolute;
+  }
+  .inscription-group21 {
+    top: 12px;
+    left: 18px;
+    width: 32.00026321411133px;
+    height: 32.00017547607422px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .inscription-vector2 {
+    top: 8.648689270019531px;
+    left: 9.094947017729282e-13px;
+    width: 29px;
+    height: 23px;
+    position: absolute;
+  }
+  .inscription-vector3 {
+    top: -9.094947017729282e-13px;
+    left: 3.4596774578094482px;
+    width: 25px;
+    height: 13px;
+    position: absolute;
+  }
+  .inscription-vector4 {
+    top: 6.918346881866455px;
+    left: 19.027217864990234px;
+    width: 13px;
+    height: 16px;
+    position: absolute;
+  }
+  .inscription-text15 {
+    top: 731px;
+    color: rgba(5, 85, 49, 1);
+    width: 390px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .inscription-headeriphone {
+    top: 8px;
+    left: 21px;
+    width: 353px;
+    height: 23px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  
+  .inscription-text17 {
+    top: 4px;
+    left: 11px;
+    color: var(--dl-color-default-white);
+    height: auto;
+    position: absolute;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .inscription-group4 {
+    top: 5.833333492279053px;
+    left: 298px;
+    width: 55px;
+    height: 14.166666984558105px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .inscription-vector5 {
+    top: 0px;
+    left: 0px;
+    width: 15px;
+    height: 12px;
+    position: absolute;
+  }
+  .inscription-vector6 {
+    top: 1.6666666269302368px;
+    left: 34.16666793823242px;
+    width: 21px;
+    height: 11px;
+    position: absolute;
+  }
+  .inscription-text19 {
+    top: 1.6666666269302368px;
+    left: 17.5px;
+    color: var(--dl-color-default-black);
+    width: 14px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  @media(max-width: 479px) {
+    .inscription-google {
+      top: 550px;
+      left: 20px;
+    }
+    .inscription-djuncompte {
+      top: 622px;
+      left: 20px;
+    }
+   
+  }
+  

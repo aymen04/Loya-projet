@@ -1,0 +1,44 @@
+[
+    {
+      "id": "3057640257773",
+      "name": "Bouteille d’eau ",
+      "whereToThrow": "Poubelle de tri",
+      "tips": "Plus besoin de séparer le bouchon de la bouteille !",
+      "alternatives": [
+        {"name": "GreenDesk", "url": "https://green-desk.net/categorie-produit/ostral-bouteille-isotherme/","imageUrl":"./external/greendesk.png"},
+        {"name": "Zeste : Gourde inox", "url": "https://www.marques-de-france.fr/listing/zeste/","imageUrl":"./external/zeste.png"},
+        {"name": "Gobi : Gourde verre", "url": "https://www.gobilab.com/products/la-gourde-ecologique-made-in-france-personnalisable?variant=46697317826894","imageUrl":"./external/gobi.jpg"},
+        {"name": "Neolia : Gourde inox", "url": "https://www.neolid.com/fr/39-la-bouteille-isotherme-made-in-france","imageUrl":"./external/neolia.jpg"}
+      ],
+      "recyclingProcess": [
+        {"step": "La collecte", "image": "collecte.jpg"},
+        {"step": "Le tri", "image": "tri.jpg"},
+        {"step": "Les usines de régénération", "image": "usine.jpg"},
+        {"step": "La réutilisation", "image": "reutilisation.jpg"}
+      ],
+      "imageUrl": "./eau.jpeg",
+      "imgreco":"./reco-1-1.png"
+    },
+    {
+      "id": "3600551142197",
+      "name": "Bouteille de shampoing ",
+      "whereToThrow": "Poubelle de tri",
+      "tips": [],
+      "alternatives": [
+        {"name": "Shampoing solide", "url": "https://lessavonnables.fr/produit/shampoing-solide-shampoing-au-ghassoul/","imageUrl":"./ghassoul.webp"}
+        
+      ],
+      "recyclingProcess": [
+        {"step": "La collecte", "image": "collecte.jpg"},
+        {"step": "Le tri", "image": "tri.jpg"},
+        {"step": "Les usines de régénération", "image": "usine.jpg"},
+        {"step": "La réutilisation", "image": "reutilisation.jpg"}
+      ],
+      "imageUrl": "./shampoing.jpg",
+      "imgreco":"./reco-1-1.png"
+    }
+    
+  ]
+  
+
+  

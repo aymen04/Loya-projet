@@ -1,0 +1,126 @@
+.div-ui-container {
+  width: 100%;
+  height: 88vh;
+  
+}
+
+p.title{
+  text-align: left;
+    margin-left: 4%;
+    background-color: bisque;
+    margin-top: 0%;
+    display: contents;
+}
+
+
+.video-capture-container {
+  position: fixed;
+    width: 100%;
+  height: 100%;
+  background-color: #055531; /* Optional: light background color */
+}
+
+.div-results-container {
+  width: 100%;
+  height: 10vh;
+  overflow: auto;
+}
+
+.modal-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it is on top of everything else */
+  transition: transform 0.3s ease-in-out;
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.modal-popup.hidden {
+  transform: translateY(100%);
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  width: 80%;
+  height: 92%;
+  max-height: 90vh; /* Max height for the content */
+  overflow-y: auto; /* Allow scrolling within the modal content */
+}
+
+.alternatives-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 124%;
+    justify-content: space-between;
+    margin-left: -11%;
+    height: 34%;
+}
+
+.alternative-item {
+  display: flex;
+  white-space: pre;
+  font-size: 11px;
+  align-items: center;
+  gap: 7%;
+   /* Ensure two items per row */
+}
+
+.alternative-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.alternative-link {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.alternative-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Styles for the recycling-section */
+.recycling-section {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-right: 43%;
+  gap: 16px;
+  margin-top: 26px;
+  flex-direction: column;
+}
+
+.recycling-item {
+  box-sizing: border-box;
+  border: 2px solid green; /* Green border */
+  border-radius: 8px; /* Optional: rounded corners */
+  padding: 16px; /* Padding inside the item */
+  text-align: center;
+  background-color: #f9f9f9; /* Optional: light background color */
+}
+
+.recycling-image {
+  width: 100%; /* Make image responsive */
+  height: auto;
+  border-radius: 8px; /* Match the border radius of the container */
+  margin-bottom: 8px; /* Space below the image */
+}
+
+.recycling-text {
+  font-size: 16px; /* Font size for the step text */
+  color: #333; /* Text color */
+}
